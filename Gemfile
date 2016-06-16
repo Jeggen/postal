@@ -1,5 +1,8 @@
 source 'https://rubygems.org'
 
+
+# cancancan
+gem 'cancancan'
 # devise
 gem 'devise', '~> 3.5'
 # Bootstrap
