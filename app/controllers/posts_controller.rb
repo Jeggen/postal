@@ -3,7 +3,6 @@ class PostsController < ApplicationController
 
   def index
     @posts = @posts.order( created_at: :desc )
-    authorize! :read, @posts
   end
 
   def create
